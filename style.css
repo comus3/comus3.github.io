@@ -1,0 +1,116 @@
+/* TITLE*/
+.titre {
+    font-size: 27px;    
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ITALIQUE (arial) */
+.italic-text {
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 70px;
+}
+
+/* Normal Text (ARIAL) */
+.normal-text {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.background-image {
+    background-image: url("hell.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*classes de exeperience*/
+
+.experience {
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgba(233, 122, 122, 0.8);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    float: right;
+}
+
+.experience h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(150, 4, 4);
+}
+
+/*Classes de COMPETENCES*/
+.competences {
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgba(233, 122, 122, 0.8);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    float: right;
+}
+
+.competences ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.competences li {
+    margin: 5px 0;
+}
+
+.competences h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(150, 4, 4);
+}
+
+/* CLASSES POUR FORMATION BLOC */
+
+.formation {
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgba(233, 122, 122, 0.8);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 25%;
+    float: right;
+}
+
+.formation h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(150, 4, 4);
+}
+
+.formation p {
+    margin: 5px 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+
+
+
+/* bloc rouge */
+.bloc-rouge {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%; /* toute la hauteur de l'écran */
+    width: 5%; /* 5% de la largeur de l'écran */
+    background-color: red;
+}
